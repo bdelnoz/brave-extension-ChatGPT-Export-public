@@ -1,0 +1,287 @@
+==============================================================================
+Document       : LICENSE
+Project        : ChatGPT Export
+Repository     : brave-extension-ChatGPT-Export-public
+Author         : Bruno DELNOZ
+Developer      : @NoXoZ.be
+Email          : bruno.delnoz@protonmail.com
+Copyright      : © Bruno DELNOZ - NoXoZ.be
+Version        : v6.0.0
+Date           : 2026-09-08
+Status         : Public Release
+Language       : English
+License        : NoXoZ Personal License v1.0
+==============================================================================
+
+NOXOZ PERSONAL LICENSE v1.0
+
+Copyright © 2026 Bruno DELNOZ / @NoXoZ.be
+All Rights Reserved.
+
+1. PURPOSE
+
+This license governs the source code, browser-extension package, documentation,
+images, icons, interface elements, release archives, and other materials
+distributed as part of ChatGPT Export, collectively referred to as the
+"Software".
+
+The Software is proprietary and source-available.
+
+It is not released as open-source software, free software, public-domain
+software, or software under an OSI-approved license.
+
+2. LICENSOR
+
+The licensor and copyright owner is:
+
+Bruno DELNOZ
+Developer identity: @NoXoZ.be
+Belgium
+Email: bruno.delnoz@protonmail.com
+
+3. LIMITED PERSONAL-USE LICENSE
+
+Subject to full compliance with this license, the Licensor grants an individual
+user a limited, personal, non-exclusive, non-transferable, non-sublicensable,
+revocable license to:
+
+a. access and read the official source code;
+b. download the official unmodified release from the official repository;
+c. install the official unmodified Software on devices personally controlled by
+   that user;
+d. execute and use the official unmodified Software for personal,
+   non-commercial purposes;
+e. keep reasonable local backup copies for that same authorized personal use.
+
+No ownership is transferred.
+
+All rights not expressly granted remain reserved by the Licensor.
+
+4. OFFICIAL SOURCE
+
+The official public repository is:
+
+https://github.com/bdelnoz/brave-extension-ChatGPT-Export-public
+
+A copy obtained from another source is not automatically an official copy.
+
+The Licensor does not authorize third parties to present mirrors, repackaged
+archives, modified builds, browser-store listings, or redistributed copies as
+official releases.
+
+5. PROHIBITED ACTIONS
+
+Except with prior, specific, written authorization from the Licensor, you may
+not:
+
+a. sell, rent, lease, license, sublicense, monetize, or commercially exploit the
+   Software;
+b. charge for access to the Software or include it in a paid product, paid
+   service, subscription, consultancy package, managed service, training
+   package, or commercial bundle;
+c. redistribute, republish, mirror, rehost, share, transmit, or provide copies
+   of the Software, its release archive, or substantial portions of its source
+   code to third parties;
+d. upload, submit, list, or publish the Software on the Chrome Web Store, Edge
+   Add-ons, Firefox Add-ons, another browser store, an application store, a
+   package registry, a download website, or a software catalogue;
+e. modify, adapt, translate, port, fork for independent publication, reverse
+   engineer, decompile, disassemble, or create derivative works for use or
+   distribution outside the limited contribution process described in
+   Section 7;
+f. publish, distribute, or make available any modified version;
+g. remove, hide, alter, replace, or misrepresent copyright notices, authorship,
+   developer identity, license notices, contact information, version
+   information, or attribution;
+h. rename the Software and present it as your own project;
+i. use the names NoXoZ, NoXoZ.be, ChatGPT Export, Bruno DELNOZ, the project
+   logo, icons, or other project identifiers to endorse or promote a different
+   product without authorization;
+j. integrate the Software or its source code into another extension,
+   application, product, service, appliance, or commercial offering;
+k. use the Software to provide a hosted, managed, shared, resale, white-label,
+   or software-as-a-service offering;
+l. claim ownership, original authorship, sponsorship, affiliation, or official
+   approval that has not been granted by the Licensor.
+
+6. NO REDISTRIBUTION RIGHT
+
+Downloading the Software does not grant a right to distribute it.
+
+A user who wishes to recommend the Software may share the URL of the official
+repository.
+
+A user may not share a copied ZIP archive, repackaged directory, modified
+archive, mirror, binary, or alternative download.
+
+7. CONTRIBUTIONS, CORRECTION REQUESTS, AND TRANSLATION REQUESTS
+
+Users may submit:
+
+a. bug reports;
+b. correction requests;
+c. feature proposals;
+d. contribution requests;
+e. translation requests;
+f. patches or pull requests prepared solely for review by the Licensor.
+
+Submission does not guarantee acceptance.
+
+The Licensor alone decides whether a proposal, correction, contribution, patch,
+or translation is accepted, rejected, rewritten, postponed, or incorporated.
+
+Permission to submit a proposal does not grant permission to publish,
+redistribute, maintain, or promote a modified version.
+
+A person preparing a patch or translation solely for submission to the
+Licensor may make the minimum temporary modifications necessary for that
+submission, provided that the modified version is not otherwise published,
+distributed, sold, deployed as a separate product, or represented as an
+official release.
+
+The Licensor may require separate written contributor terms before accepting
+or distributing a contribution.
+
+8. GITHUB VIEWING AND FORKING
+
+Publication in a public GitHub repository allows GitHub users to view the
+repository and may allow technical forking under GitHub's platform Terms of
+Service.
+
+This license does not grant any additional right to redistribute, publish,
+commercialize, release, maintain, rebrand, or independently distribute a fork.
+
+A technical fork does not become an authorized public release, official mirror,
+or separately licensed product.
+
+9. PERSONAL AND NON-COMMERCIAL USE
+
+"Personal use" means use by a natural person for that person's own private,
+non-commercial purposes.
+
+"Commercial use" includes any use primarily intended for commercial advantage,
+monetary compensation, business revenue, paid professional service, product
+integration, client delivery, resale, subscription, advertising revenue, or
+other direct or indirect financial benefit.
+
+Use by a company, employer, organization, public authority, educational
+institution, association, or other legal entity is not automatically personal
+use and requires written authorization unless the Licensor explicitly states
+otherwise.
+
+10. THIRD-PARTY SERVICES
+
+The Software interacts with third-party browser and AI web interfaces.
+
+This license grants no rights in third-party services, websites, trademarks,
+software, content, or APIs.
+
+ChatGPT Export is an independent project. It is not affiliated with, endorsed
+by, sponsored by, or developed by OpenAI.
+
+Users remain responsible for complying with the terms, policies, permissions,
+subscription conditions, and laws applicable to every third-party service they
+use.
+
+11. PRIVACY AND DATA
+
+The Licensor does not grant permission to modify the Software to collect,
+resell, disclose, or exploit user data.
+
+The Software is provided for use with third-party AI websites. Data submitted
+to those websites remains subject to their own terms and privacy policies.
+
+12. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT,
+COMPATIBILITY, AVAILABILITY, RELIABILITY, SECURITY, OR ERROR-FREE OPERATION.
+
+WEBSITE INTERFACES MAY CHANGE WITHOUT NOTICE.
+
+THE LICENSOR DOES NOT GUARANTEE THAT THE SOFTWARE WILL CONTINUE TO WORK WITH
+EVERY BROWSER VERSION, OPERATING SYSTEM, AI WEBSITE, LANGUAGE, ACCOUNT TYPE, OR
+INTERFACE UPDATE.
+
+13. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL,
+OR OTHER DAMAGES, INCLUDING LOSS OF DATA, LOSS OF ACCESS, LOSS OF REVENUE, LOSS
+OF BUSINESS, DEVICE OR BROWSER PROBLEMS, ACCOUNT RESTRICTIONS, OR THIRD-PARTY
+SERVICE ACTIONS ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+Nothing in this license excludes liability that cannot legally be excluded
+under applicable law.
+
+14. USER RESPONSIBILITY
+
+The user is responsible for:
+
+a. reviewing the source and requested permissions before installation;
+b. installing only an official copy;
+c. maintaining backups;
+d. choosing appropriate export modes, file-bundling options, target locations,
+   and Developer settings;
+e. verifying messages and files before sending;
+f. complying with third-party terms and applicable law;
+g. protecting private information, credentials, and confidential data.
+
+15. TERMINATION
+
+Any breach of this license automatically terminates the permissions granted by
+Section 3.
+
+After termination, the user must stop using the Software and delete all copies,
+except where retention is required by applicable law.
+
+Sections concerning ownership, restrictions, warranty, liability, governing
+law, and reserved rights survive termination.
+
+16. EXCEPTIONS AND COMMERCIAL PERMISSION
+
+Any exception, commercial permission, redistribution permission, translation
+authorization, integration authorization, or derivative-work authorization
+must be granted in a separate written agreement signed or explicitly confirmed
+in writing by the Licensor.
+
+Silence, repository visibility, issue discussion, acceptance of feedback, or
+failure to enforce a restriction once does not constitute permission or waiver.
+
+17. GOVERNING LAW
+
+This license is governed by the laws of Belgium, without prejudice to mandatory
+consumer-protection or other rules that apply by law.
+
+Any dispute shall be handled by the courts competent under applicable Belgian
+law, unless mandatory law requires otherwise.
+
+18. SEVERABILITY
+
+If a provision is held invalid or unenforceable, the remaining provisions
+remain in effect to the maximum extent permitted by law.
+
+An invalid provision shall be interpreted as closely as legally possible to its
+original protective purpose.
+
+19. ENTIRE LICENSE
+
+This document contains the complete license grant for the public v6.0.0 release
+unless a separate written agreement signed or explicitly confirmed by the
+Licensor applies.
+
+Repository descriptions, README text, discussions, issues, emails, and informal
+statements do not expand the rights granted by this license unless they
+explicitly state that they amend this license.
+
+20. CONTACT
+
+Permission requests, contribution requests, translation requests, and licensing
+questions may be sent to:
+
+Bruno DELNOZ
+Developer identity: @NoXoZ.be
+Email: bruno.delnoz@protonmail.com
+
+END OF NOXOZ PERSONAL LICENSE v1.0
