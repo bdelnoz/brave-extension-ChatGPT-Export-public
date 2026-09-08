@@ -23,7 +23,7 @@ uploads/
 creation_log/
 
 # Archives / packaged builds
-*.zip
+
 *.tar.gz
 *.rar
 .zip/
