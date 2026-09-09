@@ -16,6 +16,7 @@ Independent Brave / Chromium extension for exporting ChatGPT conversations and c
 - Optionally copies retrievable User-uploaded files into `Upload/`.
 - Optionally copies retrievable Assistant downloadable files into `Download/`.
 - Provides Mini, Maxi and Developer UI modes.
+- Provides an optional support/donation button that opens Stripe only when clicked.
 - Works locally in the browser with no NoXoZ.be backend, no telemetry and no analytics.
 
 ## Full Chat ZIP structure
@@ -54,6 +55,7 @@ Full Project - ProjectName__export_YYYY-MM-DD-HH-MM-SS.zip
 - `Export From Start`
 - `Export From End`
 - `Start Export`
+- `Click to Support This Project`
 
 ### Mini mode
 
@@ -64,16 +66,21 @@ Full Project - ProjectName__export_YYYY-MM-DD-HH-MM-SS.zip
 - `UPLOAD FILES`
 - `DOWNLOAD FILES`
 - `Start Export`
+- `Support This Project`
 
 Blue means enabled/selected. Gray means disabled/not selected.
 
 ## License
 
-See `LICENSE.md`.
+See `LICENSE`.
 
 ## Privacy and security
 
 See `PRIVACY.md` and `SECURITY.md`.
+
+## Support
+
+See `DONATE.md`.
 
 ## Product guide
 

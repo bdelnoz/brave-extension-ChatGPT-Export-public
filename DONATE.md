@@ -7,7 +7,7 @@ If the extension saves you time or you simply want to support its continued deve
 ## Donate via Stripe
 
 **Stripe Payment Link:**  
-https://donate.stripe.com/6oUdRbfsifpQ8DzbBWfQl00
+https://donate.stripe.com/6oUdRbfsifpQ8DzbbWfQI00
 
 You can choose the amount you wish to contribute.
 
@@ -17,7 +17,7 @@ Contributions are entirely voluntary. They do not unlock additional features, pa
 
 The extension itself does not send your ChatGPT conversations, exported files, usage data, telemetry, or analytics to NoXoZ.be.
 
-The Stripe payment page is an external service and is opened only when you explicitly choose to donate.
+The Stripe payment page is an external service and is opened only when you explicitly choose to support the project.
 
 Payment processing is handled directly by Stripe. No payment card information is processed or stored by the extension.
 

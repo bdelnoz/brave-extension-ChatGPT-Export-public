@@ -21,6 +21,7 @@ Use `chrome://extensions/` and follow the same **Load unpacked** procedure.
 manifest.json
 background.js
 content-export.js
+donate-mini.js
 export-style.css
 icons/
 ```
