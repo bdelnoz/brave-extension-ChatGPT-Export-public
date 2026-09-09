@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Export",
+  "name": "ChatGPT Export by NoXoZ.be",
   "version": "6.0.0",
   "version_name": "v6.0.0",
-  "description": "Export ChatGPT conversations and complete Projects to structured local Markdown and ZIP archives, including uploaded and downloadable files.",
+  "description": "Independent local exporter for ChatGPT chats and projects: Markdown ZIP archives, Upload/Download folders, and project index.",
   "action": {
     "default_title": "ChatGPT Export v6.0.0",
     "default_icon": {

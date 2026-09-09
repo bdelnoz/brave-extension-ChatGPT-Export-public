@@ -2,7 +2,7 @@
  * ChatGPT Export - content-export.js
  * Version: v6.0.0
  * Developer: @NoXoZ.be
- * Local-first ChatGPT conversation and Project Markdown/ZIP export.
+ * Local-only current-chat Markdown export.
  */
 (function cgxInit() {
   'use strict';

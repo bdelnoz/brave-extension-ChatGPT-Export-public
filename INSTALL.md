@@ -1,13 +1,19 @@
-# INSTALL - ChatGPT Export v6.0.0
+# INSTALL - ChatGPT Export by NoXoZ.be v6.0.0
 
-## Quick install
+> Independent project. Not affiliated with, endorsed by, sponsored by, or officially connected to OpenAI. Author: Bruno DELNOZ / NoXoZ.be.
 
-1. Download or clone the repository.
-2. Open `brave://extensions/` or `chrome://extensions/`.
+## Brave
+
+1. Extract the ZIP.
+2. Open `brave://extensions/`.
 3. Enable **Developer mode**.
 4. Click **Load unpacked**.
-5. Select the folder containing `manifest.json`.
-6. Reload ChatGPT.
+5. Select the extracted folder containing `manifest.json`.
+6. Open or reload ChatGPT.
+
+## Chrome / Chromium
+
+Use `chrome://extensions/` and follow the same **Load unpacked** procedure.
 
 ## Runtime files
 
@@ -18,7 +24,3 @@ content-export.js
 export-style.css
 icons/
 ```
-
-## Note
-
-ChatGPT Export is an independent project and is not affiliated with, endorsed by, sponsored by, or developed by [OpenAI](https://openai.com/).

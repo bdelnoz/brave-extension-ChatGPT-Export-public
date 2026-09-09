@@ -1,14 +1,20 @@
-# PRIVACY - ChatGPT Export v6.0.0
+# PRIVACY - ChatGPT Export by NoXoZ.be
+
+> Independent project. Not affiliated with, endorsed by, sponsored by, or officially connected to OpenAI. Author: Bruno DELNOZ / NoXoZ.be.
 
 The extension processes ChatGPT content locally in the browser for export.
 
-Depending on enabled options it can process:
+## Data processed
 
-- conversation text;
-- chat/project titles;
+Depending on enabled options, the extension can process:
+
+- rendered conversation text;
+- chat and project titles;
 - uploaded filenames and retrievable bytes;
 - Assistant file-offer filenames and retrievable bytes.
 
-The extension does not intentionally send exported conversation content to a separate NoXoZ.be analytics, advertising or storage service.
+## Data destination
 
-ChatGPT Export is an independent project and is not affiliated with, endorsed by, sponsored by, or developed by [OpenAI](https://openai.com/).
+Exports are written to local files saved/downloaded by the user.
+
+The extension does not intentionally send exported conversation content to a separate NoXoZ.be analytics, advertising, telemetry or storage service.

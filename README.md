@@ -1,28 +1,24 @@
-# ChatGPT Export @NoXoZ.be - v6.0.0
+# ChatGPT Export by NoXoZ.be - v6.0.0
 
-Browser extension for Brave / Chromium that exports ChatGPT conversations and complete ChatGPT Projects into structured local Markdown ZIP archives.
+> Independent project. Not affiliated with, endorsed by, sponsored by, or officially connected to OpenAI. Author: Bruno DELNOZ / NoXoZ.be.
 
-## Why this project exists
+Independent Brave / Chromium extension for exporting ChatGPT conversations and complete ChatGPT Projects into structured Markdown ZIP archives.
 
-I created ChatGPT Export because I consider complete, portable export of a full ChatGPT conversation or a complete ChatGPT Project to be a capability that is genuinely missing from the standard ChatGPT interface.
+## What it does
 
-The extension is intended to fill that gap with a local-first workflow: readable Markdown, structured ZIP archives, Project indexes, and optional bundling of associated files.
+- Exports the current ChatGPT conversation as a structured ZIP.
+- Exports an entire ChatGPT Project into a single ZIP.
+- Creates readable Markdown files.
+- Creates one folder per chat.
+- Keeps the chat Markdown beside its `Upload/` and `Download/` folders.
+- Creates a project `INDEX.md`.
+- Inventories uploaded files and Assistant-proposed download files.
+- Optionally copies retrievable User-uploaded files into `Upload/`.
+- Optionally copies retrievable Assistant downloadable files into `Download/`.
+- Provides Mini, Maxi and Developer UI modes.
+- Works locally in the browser with no NoXoZ.be backend, no telemetry and no analytics.
 
-ChatGPT Export is an independent project created by NoXoZ.be. It is **not affiliated with, endorsed by, sponsored by, or developed by [OpenAI](https://openai.com/)**.
-
-## Features
-
-- Full Chat export
-- Full Project export
-- Export From Start / Export From End
-- Project `INDEX.md`
-- Uploaded-file inventory and optional export to `Upload/`
-- Assistant downloadable-file inventory and optional export to `Download/`
-- Mini / Maxi / Developer modes
-- Local ZIP + Markdown workflow
-- No analytics or telemetry
-
-## Full Chat structure
+## Full Chat ZIP structure
 
 ```text
 ChatName__export_YYYY-MM-DD-HH-MM-SS.zip
@@ -32,10 +28,10 @@ ChatName__export_YYYY-MM-DD-HH-MM-SS.zip
     `-- Download/
 ```
 
-## Full Project structure
+## Full Project ZIP structure
 
 ```text
-Full Project - ProjectName__export_....zip
+Full Project - ProjectName__export_YYYY-MM-DD-HH-MM-SS.zip
 |-- INDEX.md
 |-- Project - ProjectName - Chat01__export_.../
 |   |-- Project - ProjectName - Chat01__export_....md
@@ -49,47 +45,36 @@ Full Project - ProjectName__export_....zip
 
 ## Controls
 
-### Maxi
+### Maxi mode
 
-- Export Full Project
-- Export Uploaded Files
-- Export Downloaded Files
-- Export Full Chat
-- Export From Start
-- Export From End
-- Start Export
+- `Export Full Project`
+- `Export Uploaded Files`
+- `Export Downloaded Files`
+- `Export Full Chat`
+- `Export From Start`
+- `Export From End`
+- `Start Export`
 
-### Mini
+### Mini mode
 
-- FULL / START / END
-- PROJECT
-- UPLOAD FILES
-- DOWNLOAD FILES
-- Start Export
+- `FULL`
+- `START`
+- `END`
+- `PROJECT`
+- `UPLOAD FILES`
+- `DOWNLOAD FILES`
+- `Start Export`
 
-Blue = enabled/selected. Gray = disabled/not selected.
-
-## Installation
-
-See [`INSTALL.md`](INSTALL.md).
-
-## Documentation
-
-- [Product Guide](ChatGPT-Export_v6.0.0_Product_Guide.pdf)
-- [Privacy](PRIVACY.md)
-- [Security](SECURITY.md)
-- [License](LICENSE)
-- [Changelog](CHANGELOG.md)
+Blue means enabled/selected. Gray means disabled/not selected.
 
 ## License
 
-ChatGPT Export is proprietary and source-available under the **NoXoZ Personal License v1.0**.
+See `LICENSE.md`.
 
-The public repository allows source inspection and authorized personal, non-commercial use of the official unmodified release. Redistribution, republishing, commercial exploitation, independent store publication, rebranding, and modified public releases require prior written authorization from the Licensor.
+## Privacy and security
 
-See [`LICENSE`](LICENSE) for the complete terms.
+See `PRIVACY.md` and `SECURITY.md`.
 
-## Author
+## Product guide
 
-NoXoZ.be  
-Bruno DELNOZ
+See `ChatGPT-Export_v6.0.0_Product_Guide.pdf`.
