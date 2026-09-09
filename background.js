@@ -18,6 +18,7 @@ function sleep(ms) { return new Promise((resolve) => setTimeout(resolve, ms)); }
 async function inject(tabId) {
   await chrome.scripting.insertCSS({ target: { tabId }, files: ['export-style.css'] });
   await chrome.scripting.executeScript({ target: { tabId }, files: ['content-export.js'] });
+  await chrome.scripting.executeScript({ target: { tabId }, files: ['donate-mini.js'] });
 }
 
 async function send(tabId, message) {
@@ -207,7 +208,6 @@ async function runLiveProjectExport(job) {
     liveProjectJobs.delete(job.tabId);
   }
 }
-
 
 function isAllowedAttachmentUrl(value) {
   try {

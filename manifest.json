@@ -35,7 +35,8 @@
         "https://chat.openai.com/*"
       ],
       "js": [
-        "content-export.js"
+        "content-export.js",
+        "donate-mini.js"
       ],
       "css": [
         "export-style.css"
