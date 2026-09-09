@@ -4,9 +4,9 @@
  * Developer: @NoXoZ.be
  *
  * FINAL support button:
- * - Mini: unchanged layout/size, soft blue, red extension border, bottom placement.
- * - Maxi / Maxi Dev: after Start/Stop Export area, full width, taller like Start/Stop buttons,
- *   larger text, soft blue, red extension border.
+ * - Mini: bottom placement, Option C Pale Pink / Red, strong red border.
+ * - Maxi / Maxi Dev: after Start/Stop Export area, full width,
+ *   reduced height, adapted text size, Option C Pale Pink / Red, strong red border.
  */
 (function cgxDonateMiniInit() {
   'use strict';
@@ -17,7 +17,7 @@
   const DONATE_URL = 'https://donate.stripe.com/6oUdRbfsifpQ8DzbbWfQI00';
 
   const MINI_LABEL = '♡  Support This Project';
-  const MAXI_LABEL = '♡  Click to Support This Project';
+  const MAXI_LABEL = '♡  Click to Support This Project  ♡';
 
   function ensureStyle() {
     if (document.getElementById(STYLE_ID)) return;
@@ -33,10 +33,10 @@
         max-width: 100%;
         margin: 6px 0 0 0;
         padding: 0 6px;
-        border: 1px solid rgba(255,23,68,.95);
+        border: 1px solid rgba(255,23,68,.98);
         border-radius: 7px;
-        background: #dbeafe;
-        color: #0b1f57;
+        background: #ffe4ec;
+        color: #3b0a18;
         font-family: inherit;
         font-weight: 900;
         text-align: center;
@@ -46,21 +46,21 @@
         box-sizing: border-box;
         box-shadow:
           inset 0 0 0 1px rgba(255,255,255,.45),
-          0 0 7px rgba(255,23,68,.22);
+          0 0 7px rgba(255,23,68,.24);
         animation: cgxDonatePulse 2.2s ease-in-out infinite;
       }
 
       #${WIDGET_ID} .${BUTTON_CLASS}:hover {
-        background: #eff6ff;
-        color: #071947;
+        background: #fff0f5;
+        color: #2b0611;
         border-color: rgba(255,23,68,1);
         box-shadow:
-          inset 0 0 0 1px rgba(255,255,255,.55),
-          0 0 12px rgba(255,23,68,.38);
+          inset 0 0 0 1px rgba(255,255,255,.58),
+          0 0 12px rgba(255,23,68,.40);
       }
 
       #${WIDGET_ID} .${BUTTON_CLASS}:focus-visible {
-        outline: 2px solid rgba(255,23,68,.90);
+        outline: 2px solid rgba(255,23,68,.92);
         outline-offset: 1px;
       }
 
@@ -78,12 +78,12 @@
         max-width: 100% !important;
         align-self: stretch;
         flex: 0 0 auto;
-        margin: 8px 0 0 0;
-        height: 34px;
-        min-height: 34px;
-        line-height: 32px;
-        font-size: 14px;
-        border-radius: 10px;
+        margin: 7px 0 0 0;
+        height: 22px;
+        min-height: 22px;
+        line-height: 20px;
+        font-size: 11px;
+        border-radius: 8px;
         padding: 0 10px;
       }
 
@@ -95,7 +95,7 @@
         }
         50% {
           box-shadow:
-            inset 0 0 0 1px rgba(255,255,255,.55),
+            inset 0 0 0 1px rgba(255,255,255,.58),
             0 0 12px rgba(255,23,68,.34);
         }
       }
